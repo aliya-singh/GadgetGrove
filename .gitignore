@@ -1,0 +1,27 @@
+# --- Virtual Environments ---
+.venv/
+env/
+venv/
+ENV/
+
+# --- Python Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Local Databases & Data (Specific to GadgetGrove) ---
+# We ignore the .db file so the pipeline starts fresh for others
+gadgetgrove.db
+mongo_reviews.json
+
+# --- Logs & Temp Files ---
+*.log
+output.txt
+
+# --- IDE Settings ---
+.vscode/
+.idea/
+.DS_Store (Mac)
+
+# --- Streamlit ---
+.streamlit/config.toml
