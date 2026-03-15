@@ -69,3 +69,6 @@ This project transitions data from an OLTP (Online Transactional Processing) mod
 dim_product_report: A dimension table for descriptive product data (Category, Name).
 
 fact_sales_reviews: A central fact table containing metrics (Quantity, Total Price, Satisfaction Rating) and keys for rapid analysis.
+
+🚀 Deployed Streamlit application
+https://gadgetgrove.streamlit.app/
