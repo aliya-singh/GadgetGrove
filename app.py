@@ -63,7 +63,6 @@ elif app_mode == "2. Run ETL":
     if st.button("Execute ETL Pipeline"):
         with st.spinner("Processing data..."):
             result = run_etl_pipeline()
-            st.balloons()
             st.success(result)
             
             # Show the newly created Star Schema tables
