@@ -1,7 +1,7 @@
 import sqlite3
 import pandas as pd
 
-def setup_sql_database(db_name="gadgetgrove.db"):
+def setup_sql_database(db_name="data/gadgetgrove.db"):
     conn = sqlite3.connect(db_name)
     cursor = conn.cursor()
 

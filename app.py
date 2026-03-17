@@ -30,7 +30,7 @@ st.title("🚀 GadgetGrove: Miniature Customer Analytics Pipeline")
 
 # --- DB Helper Function ---
 def get_db_connection():
-    return sqlite3.connect("gadgetgrove.db")
+    return sqlite3.connect("data/gadgetgrove.db")
 
 # --- Mode 1: Data Setup ---
 if app_mode == "1. Data Setup":

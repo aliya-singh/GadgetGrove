@@ -2,7 +2,7 @@ import sqlite3
 import pandas as pd
 import json
 
-def run_etl_pipeline(db_name="gadgetgrove.db", nosql_file="mongo_reviews.json"):
+def run_etl_pipeline(db_name="data/gadgetgrove.db", nosql_file="data/mongo_reviews.json"):
     # --- 1. EXTRACT ---
     conn = sqlite3.connect(db_name)
     
